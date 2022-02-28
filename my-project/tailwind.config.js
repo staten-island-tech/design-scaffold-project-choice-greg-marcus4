@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         parisienne: "'Parisienne', serif",
+        hubballi: "'Hubballi', mono",
       },
     },
   },
