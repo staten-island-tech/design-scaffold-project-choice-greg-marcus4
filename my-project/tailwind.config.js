@@ -4,4 +4,11 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  theme: {
+    extend: {
+      fontFamily: {
+        parisienne: "'Parisienne', serif",
+      },
+    },
+  },
 };
