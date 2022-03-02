@@ -5,11 +5,27 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-
+  <title class="text-white">France</title>
+  <script type="module" src="./main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/Flip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/Draggable.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/EaselPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/MotionPathPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/PixiPlugin.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Hubballi&family=Parisienne&display=swap"
+    rel="stylesheet"
+  />
   <nav
     class="
       fixed
-      bg-yellow-300
+      bg-yellow-500
       text-slate-900
       font-hubballi
       text-4xl
@@ -29,8 +45,11 @@
       href="#attractions"
       >Attractions</a
     >
-    <a class="hover:text-white hover:scale-110 transition-all" href="#foods"
+    <a class="hover:text-red-700 hover:scale-110 transition-all" href="#foods"
       >Foods</a
+    >
+    <a class="hover:text-white hover:scale-110 transition-all" href="#hotels"
+      >Hotels</a
     >
     <a
       class="hover:text-blue-700 hover:scale-110 transition-all"
@@ -39,47 +58,34 @@
     >
   </nav>
   <span>#header</span>
-  <body
-    class="bg-no-repeat bg-fixed bg-cover"
-    style="
-      background-image: url(https://i.ytimg.com/vi/BZLZyX3JdEM/maxresdefault.jpg);
-    "
-  >
-    <h1
-      class="
-        text-white
-        font-size:
-        2rem
-        line-height:
-        3rem
-        text-center text-9xl
-        font-parisienne
-        hover:translate-y-10
-        hover:scale-110
-        transition-all
-        translate-y-10
-      "
-    >
-      Welcome to France!
-    </h1>
-
-    <div id="app"></div>
-    <script type="module" src="./main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/Flip.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/Draggable.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/EaselPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/MotionPathPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/PixiPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Hubballi&family=Parisienne&display=swap"
-      rel="stylesheet"
-    />
-    <title class="text-white">France</title>
+  <body>
+    <header>
+      <div
+        class="bg-no-repeat bg-cover h-screen"
+        style="
+          background-image: url(https://i.ytimg.com/vi/BZLZyX3JdEM/maxresdefault.jpg);
+        "
+      >
+        <h1
+          class="
+            text-white
+            font-size:
+            2rem
+            line-height:3rem
+            text-center text-9xl
+            font-parisienne
+            hover:translate-y-10
+            hover:scale-110
+            transition-all
+            translate-y-10
+          "
+        >
+          Welcome to France!
+        </h1>
+      </div>
+    </header>
+    <section>
+      <h1>Regions</h1>
+    </section>
   </body>
 </html>
