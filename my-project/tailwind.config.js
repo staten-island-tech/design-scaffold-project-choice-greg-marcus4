@@ -9,7 +9,7 @@ module.exports = {
       fontFamily: {
         parisienne: "'Parisienne', serif",
         hubballi: "'Hubballi', mono",
-        satisfy: "'satisfy'",
+        cormorant_garamond: "'Cormorant Garamond'",
       },
     },
   },
