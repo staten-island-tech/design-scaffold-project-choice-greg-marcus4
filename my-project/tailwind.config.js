@@ -9,6 +9,7 @@ module.exports = {
       fontFamily: {
         parisienne: "'Parisienne', serif",
         hubballi: "'Hubballi', mono",
+        satisfy: "'satisfy'",
       },
     },
   },
