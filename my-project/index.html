@@ -775,22 +775,33 @@
         </head>
         <body>
           <div class="slideshow-container">
-            <div class="mySlides fade">
-              <div class="numbertext">1 / 3</div>
-              <img src="img_nature_wide.jpg" style="width: 100%" />
+            <div class="mySlides">
+              <img
+                src="https://imageio.forbes.com/specials-images/imageserve/61840c42136639346edc90fa/Interior-of-three-star-Michelin-restaurant-Le-Cinq-at-Four-Seasons-George-V-Hotel/960x0.jpg?fit=bounds&format=jpg&width=960"
+                class="w-full"
+              />
               <div class="text">Caption Text</div>
             </div>
 
-            <div class="mySlides fade">
-              <div class="numbertext">2 / 3</div>
-              <img src="img_snow_wide.jpg" style="width: 100%" />
+            <div class="mySlides animate-fade">
+              <img
+                src="https://www.waldorfastoriaversailles.fr/wp-content/uploads/2020/11/1680x700-palace-batiment-rz-540x225.jpg"
+                class="w-full h-full"
+              />
               <div class="text">Caption Two</div>
             </div>
 
-            <div class="mySlides fade">
-              <div class="numbertext">3 / 3</div>
+            <div class="mySlides animate-fade">
               <img src="img_mountains_wide.jpg" style="width: 100%" />
               <div class="text">Caption Three</div>
+            </div>
+            <div class="mySlides animate-fade">
+              <img src="img_mountains_wide.jpg" style="width: 100%" />
+              <div class="text">Caption Four</div>
+            </div>
+            <div class="mySlides animate-fade">
+              <img src="img_mountains_wide.jpg" style="width: 100%" />
+              <div class="text">Caption Five</div>
             </div>
 
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -798,10 +809,12 @@
           </div>
           <br />
 
-          <div style="text-align: center">
+          <div class="text-center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
           </div>
 
           <script>
