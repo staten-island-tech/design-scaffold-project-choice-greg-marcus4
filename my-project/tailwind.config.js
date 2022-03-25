@@ -12,18 +12,19 @@ module.exports = {
       cormorant_garamond: "'Cormorant Garamond'",
     },
     extend: {
-      // that is animation class
-      animation: {
-        fade: "fadeOut 5s ease-in",
-      },
-
-      // that is actual animation
-      keyframes: (theme) => ({
-        fadeOut: {
-          "0%": { backgroundColor: theme("colors.transparent") },
-          "100%": { backgroundColor: theme("colors.red.300") },
+      keyframes: {
+        "fade-in": {
+          "0%": {
+            opacity: "0",
+          },
+          "100%": {
+            opacity: "1",
+          },
         },
-      }),
+      },
+      animation: {
+        "fade-in": "fade-in 2s ease-out",
+      },
     },
   },
 };
