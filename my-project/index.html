@@ -124,7 +124,6 @@
             meters.
           </p>
         </div>
-
         <div
           class="bg-black border-8 mx-48 border-yellow-500 rounded-xl text-6xl hover:translate-x-4 hover:translate-y-4 duration-100"
         >
@@ -483,80 +482,18 @@
       <br />
       <h2 class="font-parisienne text-5xl text-center">Hotels</h2>
       <style>
-        * {
-          box-sizing: border-box;
-        }
-        body {
-          font-family: Verdana, sans-serif;
-          margin: 0;
-        }
-
-        /* Slideshow container */
-        .slideshow-container {
-          max-width: 1000px;
-          position: relative;
-          margin: auto;
-        }
-
-        /* Next & previous buttons */
-        .prev,
-        .next {
-          cursor: pointer;
-          position: absolute;
-          top: 50%;
-          width: auto;
-          padding: 16px;
-          margin-top: -22px;
-          color: white;
-          font-weight: bold;
-          font-size: 18px;
-          transition: 0.6s ease;
-          border-radius: 0 3px 3px 0;
-          user-select: none;
-        }
-
-        /* Position the "next button" to the right */
-        .next {
-          right: 0;
-          border-radius: 3px 0 0 3px;
-        }
-
-        /* On hover, add a black background color with a little bit see-through */
-        .prev:hover,
-        .next:hover {
-          background-color: rgba(0, 0, 0, 0.8);
-        }
-
-        /* Caption text */
-        .text {
-          font-size: 15px;
-          padding: 8px 12px;
-          position: absolute;
-          bottom: 8px;
-          width: 100%;
-          text-align: center;
-        }
-
-        /* Number text (1/3 etc) */
-        .numbertext {
-          color: #f2f2f2;
-          font-size: 12px;
-          padding: 8px 12px;
-          position: absolute;
-          top: 0;
-        }
         .active {
           background-color: #717171;
         }
       </style>
-      <div class="slideshow-container">
+      <div class="max-w-5xl relative m-auto">
         <div class="hidden animate-fade-in">
           <img
             src="https://imageio.forbes.com/specials-images/imageserve/61840c42136639346edc90fa/Interior-of-three-star-Michelin-restaurant-Le-Cinq-at-Four-Seasons-George-V-Hotel/960x0.jpg?fit=bounds&format=jpg&width=960"
             class="w-full align-middle"
           />
           <div
-            class="text-xl pt-2 pb-2 pl-3 pr-3 absolute bottom-2 w-full text-center text-black"
+            class="text-3xl pt-2 pb-2 pl-3 pr-3 absolute bottom-2 text-center text-black font-parisienne border-4 border-slate-900 bg-white w-full max-w-lg right-64"
           >
             Four Seasons Hotel George V, Paris
           </div>
@@ -568,7 +505,7 @@
             class="w-full align-middle"
           />
           <div
-            class="text-xl pt-2 pb-2 pl-3 pr-3 absolute bottom-2 w-full text-center"
+            class="text-3xl pt-2 pb-2 pl-3 pr-3 absolute bottom-2 text-center text-black font-parisienne border-4 border-slate-900 bg-white w-full max-w-xl right-52"
           >
             Waldorf Astoria Versailles - Trianon Palace
           </div>
@@ -580,7 +517,7 @@
             class="w-full align-middle"
           />
           <div
-            class="text-xl pt-2 pb-2 pl-3 pr-3 absolute bottom-2 w-full text-center text-white"
+            class="text-3xl pt-2 pb-2 pl-3 pr-3 absolute bottom-2 text-center text-black font-parisienne border-4 border-slate-900 bg-white w-full max-w-xs right-1/3"
           >
             Shangri-La Paris
           </div>
@@ -591,7 +528,7 @@
             class="w-full align-middle"
           />
           <div
-            class="text-xl pt-2 pb-2 pl-3 pr-3 absolute bottom-2 w-full text-center text-white"
+            class="text-3xl pt-2 pb-2 pl-3 pr-3 absolute bottom-2 text-center text-black font-parisienne border-4 border-slate-900 bg-white w-full max-w-lg right-64"
           >
             Hotel Eiffel Blomet
           </div>
@@ -602,14 +539,22 @@
             class="w-full align-middle"
           />
           <div
-            class="text-xl pt-2 pb-2 pl-3 pr-3 absolute bottom-2 w-full text-center text-white"
+            class="text-3xl pt-2 pb-2 pl-3 pr-3 absolute bottom-2 text-center text-black font-parisienne border-4 border-slate-900 bg-white w-full max-w-lg right-64"
           >
             Hôtel Martinez - In the Unbound Collection by Hyatt
           </div>
         </div>
 
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <a
+          class="cursor-pointer absolute top-1/2 w-auto p-4 -mt-6 text-white font-bold text-lg rounded-sm select-none hover:bg-gray-300 duration-700"
+          onclick="plusSlides(-1)"
+          >&#10094;</a
+        >
+        <a
+          class="cursor-pointer absolute top-1/2 w-auto p-4 -mt-6 text-white font-bold text-lg rounded-sm select-none right-0 hover:bg-gray-300 bg-opacity-100 duration-700"
+          onclick="plusSlides(1)"
+          >&#10095;</a
+        >
       </div>
       <br />
 
