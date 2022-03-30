@@ -27,7 +27,7 @@ meals.forEach((meal, i) => {
   const anim = gsap.fromTo(
     meal,
     { autoAlpha: 0, y: 100 },
-    { duration: 1, autoAlpha: 1, y: 0 }
+    { duration: 3, autoAlpha: 1, y: 0 }
   );
   ScrollTrigger.create({
     trigger: meal,
