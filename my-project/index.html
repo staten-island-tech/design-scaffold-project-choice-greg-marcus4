@@ -83,7 +83,7 @@
             hover:scale-110
             transition-all
             translate-y-20
-            header-title header
+            header-title
           "
         >
           Welcome to France!
@@ -103,7 +103,13 @@
       <br />
 
       <h2 class="font-parisienne text-center text-5xl header">Attractions</h2>
-      <div class="flex flex-wrap w-9/12">
+      <div
+        class="
+          grid grid-flow-col grid-cols-5
+          grid-rows-[700px_minmax(900px,_1fr)_100px]
+        "
+      >
+        ">
         <div
           class="
             bg-black
@@ -114,6 +120,8 @@
             text-6xl
             hover:translate-x-4 hover:translate-y-4
             duration-100
+            col-start-1 col-span-4
+            row-span-1
           "
         >
           <h3
@@ -175,6 +183,8 @@
             text-6xl
             hover:translate-x-4 hover:translate-y-4
             duration-100
+            col-start-2 col-span-5
+            row-span-1
           "
         >
           <h3
@@ -192,7 +202,7 @@
           </h3>
           <img
             class="pl-20 pr-20 pb-5 rounded-xl"
-            src="https://media.cntraveler.com/photos/57d961ce3e6b32bf25f5ad0f/16:9/w_2560,c_limit/most-beautiful-paris-louvre-GettyImages-536267205.jpg"
+            src="https://www.sortiraparis.com/images/80/66131/350528-le-musee-du-louvre-coeur-artistique-et-touristique-de-la-capitale.jpg"
             alt=""
           />
           <p
@@ -256,6 +266,7 @@
               border-yellow-500
               duration-150
               hover:translate-y-6 hover:translate-x-6
+              meal
             "
           >
             <h3 class="text-center">Soupe à l'oignon</h3>
@@ -284,6 +295,7 @@
               border-yellow-500
               duration-150
               hover:translate-y-6 hover:translate-x-6
+              meal
             "
           >
             <h3 class="text-center">Coq Au Vin</h3>
@@ -314,6 +326,7 @@
               border-yellow-500
               duration-150
               hover:translate-y-6 hover:translate-x-6
+              meal
             "
           >
             <h3 class="text-center">Cassolet</h3>
@@ -359,6 +372,7 @@
               duration-150
               hover:translate-y-6 hover:translate-x-6
               max-h-96
+              meal
             "
           >
             <h3 class="text-center">Bœuf bourguignon</h3>
@@ -390,6 +404,7 @@
               border-yellow-500
               duration-150
               hover:translate-y-6 hover:translate-x-6
+              meal
             "
           >
             <h3 class="text-center">Chocolate soufflé</h3>
@@ -420,6 +435,7 @@
               border-yellow-500
               duration-150
               hover:translate-y-6 hover:translate-x-6
+              meal
             "
           >
             <h3 class="text-center">Flamiche</h3>
@@ -453,6 +469,7 @@
               duration-150
               hover:translate-y-6 hover:translate-x-6
               max-h-96
+              meal
             "
           >
             <h3 class="text-center">Confit De Canard</h3>
@@ -482,6 +499,7 @@
               border-yellow-500
               duration-150
               hover:translate-y-6 hover:translate-x-6
+              meal
             "
           >
             <h3 class="text-center">Tarte Tatin</h3>
@@ -511,6 +529,7 @@
               border-yellow-500
               duration-150
               hover:translate-y-6 hover:translate-x-6
+              meal
             "
           >
             <h3 class="text-center">Ratatouille</h3>
