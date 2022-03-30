@@ -20,3 +20,19 @@ headers.forEach((header, i) => {
     once: true,
   });
 });
+
+const meals = gsap.utils.toArray(".meal");
+
+meals.forEach((meal, i) => {
+  const anim = gsap.fromTo(
+    meal,
+    { autoAlpha: 0, y: 100 },
+    { duration: 1, autoAlpha: 1, y: 0 }
+  );
+  ScrollTrigger.create({
+    trigger: meal,
+    animation: anim,
+    toggleActions: "play none none none",
+    once: true,
+  });
+});
