@@ -1,4 +1,5 @@
 import "../index.css";
+import "../js/changetheme";
 import { gsap } from "gsap";
 
 const tl = gsap.timeline({ delay: 0.3 });
