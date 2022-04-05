@@ -15,7 +15,8 @@ html,
   box-sizing: border-box;
 }
 
-.active {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -34,4 +35,9 @@ html,
 
 .map {
   max-height: 40rem;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
