@@ -35,3 +35,19 @@ meals.forEach((meal, i) => {
     once: true,
   });
 });
+
+const attractionnames = gsap.utils.toArray(".attractionname");
+
+attractionnames.forEach((attractionname, i) => {
+  const anim = gsap.fromTo(
+    attractionname,
+    { autoAlpha: 0, y: 0 },
+    { duration: 3, autoAlpha: 1, y: 0 }
+  );
+  ScrollTrigger.create({
+    trigger: attractionname,
+    animation: anim,
+    toggleActions: "play none none none",
+    once: true,
+  });
+});
