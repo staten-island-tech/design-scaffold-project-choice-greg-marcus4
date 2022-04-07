@@ -41,3 +41,196 @@ html,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
+
+.hide {
+  display: none;
+}
+
+.regionname:hover + .hide {
+  display: block;
+}
+
+.regionname {
+  font-size: 13px;
+}
+
+.hide1 {
+  display: none;
+}
+
+.regionname1:hover + .hide1 {
+  display: block;
+}
+
+.regionname1 {
+  --tw-translate-y: -38rem;
+  font-size: 10px;
+}
+
+.hide2 {
+  display: none;
+}
+
+.regionname2:hover + .hide2 {
+  display: block;
+}
+
+.hide3 {
+  display: none;
+}
+
+.regionname3:hover + .hide3 {
+  display: block;
+}
+
+.hide4 {
+  display: none;
+}
+
+.regionname4:hover + .hide4 {
+  display: block;
+}
+
+.hide5 {
+  display: none;
+}
+
+.regionname5:hover + .hide5 {
+  display: block;
+}
+
+.hide6 {
+  display: none;
+}
+
+.regionname6:hover + .hide6 {
+  display: block;
+}
+
+.hide7 {
+  display: none;
+}
+
+.regionname7:hover + .hide7 {
+  display: block;
+}
+
+.hide8 {
+  display: none;
+}
+
+.regionname8:hover + .hide8 {
+  display: block;
+}
+
+.hide9 {
+  display: none;
+}
+
+.regionname9:hover + .hide9 {
+  display: block;
+}
+
+.hide10 {
+  display: none;
+}
+
+.regionname10:hover + .hide10 {
+  display: block;
+}
+
+.hide11 {
+  display: none;
+}
+
+.regionname11:hover + .hide11 {
+  display: block;
+}
+
+.hide12 {
+  display: none;
+}
+
+.regionname12:hover + .hide12 {
+  display: block;
+}
+
+.hide13 {
+  display: none;
+}
+
+.regionname13:hover + .hide13 {
+  display: block;
+}
+
+.hide14 {
+  display: none;
+}
+
+.regionname14:hover + .hide14 {
+  display: block;
+}
+
+.hide15 {
+  display: none;
+}
+
+.regionname15:hover + .hide15 {
+  display: block;
+}
+
+.hide16 {
+  display: none;
+}
+
+.regionname16:hover + .hide16 {
+  display: block;
+}
+
+.hide17 {
+  display: none;
+}
+
+.regionname17:hover + .hide17 {
+  display: block;
+}
+
+.hide18 {
+  display: none;
+}
+
+.regionname18:hover + .hide18 {
+  display: block;
+}
+
+.hide19 {
+  display: none;
+}
+
+.regionname19:hover + .hide19 {
+  display: block;
+}
+
+.hide20 {
+  display: none;
+}
+
+.regionname20:hover + .hide20 {
+  display: block;
+}
+
+.hide21 {
+  display: none;
+}
+
+.regionname21:hover + .hide21 {
+  display: block;
+}
+
+.hide22 {
+  display: none;
+}
+
+.regionname22:hover + .hide22 {
+  display: block;
+}
