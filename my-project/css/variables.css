@@ -15,6 +15,14 @@ html,
   box-sizing: border-box;
 }
 
+.theme1 {
+  background-color: white;
+}
+
+.theme2 {
+  background-color: rgb(112, 230, 246);
+}
+
 .active,
 .dot:hover {
   background-color: #717171;
@@ -43,6 +51,8 @@ html,
 }
 
 .hide {
+  --tw-translate-y: -40rem;
+  --tw-translate-x: -30rem;
   display: none;
 }
 
@@ -56,6 +66,8 @@ html,
 
 .hide1 {
   display: none;
+  --tw-translate-y: -40rem;
+  --tw-translate-x: -30rem;
 }
 
 .regionname1:hover + .hide1 {
@@ -63,7 +75,7 @@ html,
 }
 
 .regionname1 {
-  --tw-translate-y: -38rem;
+  --tw-translate-y: -37.4rem;
   font-size: 10px;
 }
 
@@ -233,4 +245,10 @@ html,
 
 .regionname22:hover + .hide22 {
   display: block;
+}
+
+.regionimg {
+  max-height: 30rem;
+  max-width: 40rem;
+  border-radius: 20%;
 }
