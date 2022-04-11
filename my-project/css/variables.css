@@ -20,7 +20,8 @@ html,
 }
 
 .theme2 {
-  background-color: rgb(112, 230, 246);
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Flag_of_France_%28lighter_variant%29.svg/250px-Flag_of_France_%28lighter_variant%29.svg.png);
+  background-size: contain;
 }
 
 .active,
@@ -35,6 +36,13 @@ html,
 .footerimage {
   background-image: url(https://c.tenor.com/Qsc8HslGhVEAAAAM/paris-dusan.gif);
   height: 20vh;
+}
+.footerimage:hover {
+  --tw-scale-x: 8.7;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transition-duration: 0.1s;
 }
 
 .headerheaderthing {
