@@ -89,6 +89,8 @@ html,
 
 .hide2 {
   display: none;
+  --tw-translate-y: -40rem;
+  --tw-translate-x: -30rem;
 }
 
 .regionname2:hover + .hide2 {
