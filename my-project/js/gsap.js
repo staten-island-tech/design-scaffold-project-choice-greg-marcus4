@@ -36,6 +36,38 @@ meals.forEach((meal, i) => {
   });
 });
 
+const meals1 = gsap.utils.toArray(".meal1");
+
+meals1.forEach((meal1, i) => {
+  const anim = gsap.fromTo(
+    meal1,
+    { autoAlpha: 0, y: 100 },
+    { duration: 4, autoAlpha: 1, y: 0 }
+  );
+  ScrollTrigger.create({
+    trigger: meal1,
+    animation: anim,
+    toggleActions: "play none none none",
+    once: true,
+  });
+});
+
+const meals2 = gsap.utils.toArray(".meal2");
+
+meals2.forEach((meal2, i) => {
+  const anim = gsap.fromTo(
+    meal2,
+    { autoAlpha: 0, y: 100 },
+    { duration: 5, autoAlpha: 1, y: 0 }
+  );
+  ScrollTrigger.create({
+    trigger: meal2,
+    animation: anim,
+    toggleActions: "play none none none",
+    once: true,
+  });
+});
+
 const attractionnames = gsap.utils.toArray(".attractionname");
 
 attractionnames.forEach((attractionname, i) => {
