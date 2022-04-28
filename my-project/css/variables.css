@@ -267,5 +267,9 @@ body {
   border-radius: 20%;
 }
 
-@media {
+@media (max-width: 1000px) {
+  .Foods {
+    width: 51%;
+    justify-content: space-around;
+  }
 } ;
