@@ -271,5 +271,6 @@ body {
   .Foods {
     width: 51%;
     justify-content: space-around;
+    overflow-x: hidden;
   }
 } ;
