@@ -40,13 +40,6 @@ body {
   background-image: url(https://c.tenor.com/Qsc8HslGhVEAAAAM/paris-dusan.gif);
   height: 20vh;
 }
-.footerimage:hover {
-  --tw-scale-x: 8.7;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
-    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  transition-duration: 0.1s;
-}
 
 .headerheaderthing {
   background-image: url(https://i.ytimg.com/vi/BZLZyX3JdEM/maxresdefault.jpg);
@@ -284,10 +277,18 @@ body {
 @media (max-width: 1000px) {
   .Foods {
     width: 51%;
-    justify-content: space-around;
   }
 }
 @media (max-width: 1000px) {
   body {
+  }
+}
+@media (min-width: 1690px) {
+  .footerimage:hover {
+    --tw-scale-x: 8.7;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+      rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+      scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    transition-duration: 0.1s;
   }
 }
