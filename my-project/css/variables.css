@@ -121,12 +121,22 @@ body {
   font-size: 12px;
 }
 
+.regionname5 {
+  font-size: 14px;
+  --tw-translate-x: 28rem;
+}
+
 .hide5 {
   display: none;
 }
 
 .regionname5:hover + .hide5 {
   display: block;
+}
+
+.regionname6 {
+  font-size: 14px;
+  transform: translate(26.5rem, -26.5rem);
 }
 
 .hide6 {
