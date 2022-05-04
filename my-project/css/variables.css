@@ -110,6 +110,10 @@ body {
   display: block;
 }
 
+.regionname4 {
+  font-size: 12px;
+}
+
 .hide5 {
   display: none;
 }
@@ -267,7 +271,6 @@ body {
 }
 @media (max-width: 1000px) {
   body {
-    overflow-x: hidden;
   }
 }
 @media (min-width: 1690px) {
