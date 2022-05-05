@@ -265,8 +265,8 @@ body {
 }
 
 @media (max-width: 1000px) {
-  .Foods {
-    width: 51%;
+  .food {
+    width: 75%;
   }
 }
 @media (max-width: 1000px) {
