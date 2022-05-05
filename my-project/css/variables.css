@@ -140,6 +140,11 @@ body {
   display: block;
 }
 
+.regionname7 {
+  font-size: 17px;
+  transform: translate(32.35rem, -15.3rem);
+}
+
 .hide7 {
   display: none;
 }
@@ -154,6 +159,16 @@ body {
 
 .regionname8:hover + .hide8 {
   display: block;
+}
+
+.regionname8 {
+  transform: translate(28.3rem, -36.5rem);
+  font-size: 12px;
+}
+
+.regionname9 {
+  transform: translate(22.5rem, -38rem);
+  font-size: 20px;
 }
 
 .hide9 {
