@@ -179,6 +179,11 @@ body {
   display: block;
 }
 
+.regionname10 {
+  transform: translate(20.5rem, -34rem);
+  font-size: 15px;
+}
+
 .hide10 {
   display: none;
 }
