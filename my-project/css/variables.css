@@ -300,8 +300,20 @@ body {
     margin-bottom: 144px;
   }
 }
+
 @media (max-width: 1000px) {
-  body {
+  .food {
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 800px) (max-width: 999px) {
+  .foodimage {
+    width: 25rem;
+  }
+}
+@media (min-width: 800px) (max-width: 999px) {
+  .foodimage {
+    width: 25rem;
   }
 }
 @media (min-width: 1690px) {
