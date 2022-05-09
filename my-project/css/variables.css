@@ -192,12 +192,20 @@ body {
   display: block;
 }
 
+.regionname11 {
+  transform: translate(16.5rem, -35.5rem);
+}
+
 .hide11 {
   display: none;
 }
 
 .regionname11:hover + .hide11 {
   display: block;
+}
+
+.regionname12 {
+  transform: translate(11.5rem, -39rem);
 }
 
 .hide12 {
@@ -208,12 +216,20 @@ body {
   display: block;
 }
 
+.regionname13 {
+  transform: translate(10rem, -47.5rem);
+}
+
 .hide13 {
   display: none;
 }
 
 .regionname13:hover + .hide13 {
   display: block;
+}
+
+.regionname14 {
+  transform: translate(4.5rem, -53rem);
 }
 
 .hide14 {

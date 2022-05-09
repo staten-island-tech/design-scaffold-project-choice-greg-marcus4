@@ -1,4 +1,4 @@
-import { gsap } from "gsap";
+export { gsap } from "gsap";
 
 const tl = gsap.timeline({ delay: 0.3 });
 tl.from(".header-title", { opacity: 0, duration: 0.3, ease: "ease-out" });
