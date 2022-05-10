@@ -54,6 +54,15 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.attractions {
+  position: relative;
+  top: -8rem;
+}
+
+.tred {
+  display: none;
+}
+
 .hide {
   --tw-translate-y: -40rem;
   --tw-translate-x: -30rem;
@@ -240,6 +249,10 @@ body {
   display: block;
 }
 
+.regionname15 {
+  transform: translate(10.5rem, -58rem);
+}
+
 .hide15 {
   display: none;
 }
@@ -248,12 +261,22 @@ body {
   display: block;
 }
 
+.regionname16 {
+  transform: translate(14.5rem, -62.2rem);
+  font-size: 14px;
+}
+
 .hide16 {
   display: none;
 }
 
 .regionname16:hover + .hide16 {
   display: block;
+}
+
+.regionname17 {
+  transform: translate(18rem, -61.5rem);
+  font-size: 13px;
 }
 
 .hide17 {
