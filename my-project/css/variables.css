@@ -314,24 +314,26 @@ body {
   .meal {
     width: 51%;
     margin-bottom: 144px;
+    max-width: 358px;
   }
 }
 
+@media (max-width: 600px) {
+  .foodimage {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .foodtext {
+    width: 100%;
+  }
+}
 @media (max-width: 1000px) {
   .food {
     margin-bottom: 0px;
   }
 }
-@media (min-width: 800px) (max-width: 999px) {
-  .foodimage {
-    width: 25rem;
-  }
-}
-@media (min-width: 800px) (max-width: 999px) {
-  .foodimage {
-    width: 25rem;
-  }
-}
+
 @media (min-width: 1690px) {
   .footerimage:hover {
     --tw-scale-x: 8.7;
