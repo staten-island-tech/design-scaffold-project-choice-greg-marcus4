@@ -287,6 +287,10 @@ body {
   display: block;
 }
 
+.regionname18 {
+  transform: translate(19.3rem, -67.3rem);
+}
+
 .hide18 {
   display: none;
 }
