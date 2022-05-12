@@ -288,7 +288,8 @@ body {
 }
 
 .regionname18 {
-  transform: translate(19.3rem, -67.3rem);
+  transform: translate(23.5rem, -64rem);
+  font-size: 13px;
 }
 
 .hide18 {
@@ -299,12 +300,20 @@ body {
   display: block;
 }
 
+.regionname19 {
+  transform: translate(19.7rem, -69rem);
+}
+
 .hide19 {
   display: none;
 }
 
 .regionname19:hover + .hide19 {
   display: block;
+}
+
+.regionname20 {
+  transform: translate(28.5rem, -67rem);
 }
 
 .hide20 {
@@ -315,6 +324,11 @@ body {
   display: block;
 }
 
+.regionname21 {
+  transform: translate(32.8rem, -67rem);
+  font-size: 10px;
+}
+
 .hide21 {
   display: none;
 }
@@ -323,18 +337,11 @@ body {
   display: block;
 }
 
-.hide22 {
-  display: none;
-}
-
-.regionname22:hover + .hide22 {
-  display: block;
-}
-
 .regionimg {
   max-height: 30rem;
   max-width: 40rem;
   border-radius: 20%;
+  object-fit: cover;
 }
 
 @media (max-width: 1000px) {
