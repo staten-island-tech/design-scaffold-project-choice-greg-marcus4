@@ -405,6 +405,10 @@ body {
     margin-bottom: 0px;
   }
 }
+@media() {
+  .attractions {
+  }
+}
 
 @media (min-width: 1690px) {
   .footerimage:hover {
