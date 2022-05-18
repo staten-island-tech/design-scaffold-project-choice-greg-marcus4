@@ -104,8 +104,7 @@ body {
 }
 
 .hide3 {
-  --tw-translate-y: -40rem;
-  --tw-translate-x: -30rem;
+  transform: translate(-30rem, -37rem);
   display: none;
 }
 
@@ -114,8 +113,7 @@ body {
 }
 
 .hide4 {
-  --tw-translate-y: -40rem;
-  --tw-translate-x: -30rem;
+  transform: translate(-30rem, -40rem);
   display: none;
 }
 
@@ -173,8 +171,7 @@ body {
 }
 
 .hide8 {
-  --tw-translate-y: -40rem;
-  --tw-translate-x: -30rem;
+  transform: translate(-35rem, -45rem);
   display: none;
 }
 
@@ -193,8 +190,7 @@ body {
 }
 
 .hide9 {
-  --tw-translate-y: -40rem;
-  --tw-translate-x: -30rem;
+  transform: translate(-30rem, -48rem);
   display: none;
 }
 
@@ -250,8 +246,7 @@ body {
 }
 
 .hide13 {
-  --tw-translate-y: -40rem;
-  --tw-translate-x: -30rem;
+  transform: translate(-30rem, -55rem);
   display: none;
 }
 
@@ -366,8 +361,7 @@ body {
 }
 
 .hide21 {
-  --tw-translate-y: -40rem;
-  --tw-translate-x: -30rem;
+  transform: translate(-30rem, -70rem);
   display: none;
 }
 
