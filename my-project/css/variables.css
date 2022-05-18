@@ -405,8 +405,9 @@ body {
     margin-bottom: 0px;
   }
 }
-@media() {
+@media (max-width: 1200px) {
   .attractions {
+    grid-template-rows: 1200px minmax(1200, 5fr) 50px;
   }
 }
 
