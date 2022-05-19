@@ -406,8 +406,9 @@ body {
   }
 }
 @media (max-width: 1200px) {
-  .attractions {
-    grid-template-rows: 1200px minmax(1200, 5fr) 50px;
+  .attraction {
+    grid-column: span 5;
+    grid-row: span 0.8;
   }
 }
 
