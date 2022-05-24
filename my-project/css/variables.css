@@ -402,6 +402,62 @@ body {
     max-width: 358px;
   }
 }
+@media (max-width: 1000px) {
+  .meal1 {
+    width: 51%;
+    margin-bottom: 144px;
+    max-width: 358px;
+  }
+}
+@media (max-width: 1000px) {
+  .meal2 {
+    width: 51%;
+    margin-bottom: 144px;
+    max-width: 358px;
+  }
+}
+@media (max-width: 1000px) {
+  .meal3 {
+    width: 51%;
+    margin-bottom: 144px;
+    max-width: 358px;
+  }
+}
+@media (max-width: 1000px) {
+  .meal4 {
+    width: 51%;
+    margin-bottom: 144px;
+    max-width: 358px;
+  }
+}
+@media (max-width: 1000px) {
+  .meal5 {
+    width: 51%;
+    margin-bottom: 144px;
+    max-width: 358px;
+  }
+}
+@media (max-width: 1000px) {
+  .meal6 {
+    width: 51%;
+    margin-bottom: 144px;
+    max-width: 358px;
+  }
+}
+@media (max-width: 1000px) {
+  .meal7 {
+    width: 51%;
+    margin-bottom: 144px;
+    max-width: 358px;
+  }
+}
+@media (max-width: 1000px) {
+  .meal8 {
+    width: 51%;
+    margin-bottom: 144px;
+    max-width: 358px;
+  }
+}
 
 @media (max-width: 600px) {
   .foodimage {
@@ -419,8 +475,9 @@ body {
   }
 }
 @media (max-width: 1200px) {
-  .attractions {
-    grid-template-rows: 1200px minmax(1200, 5fr) 50px;
+  .attraction {
+    grid-column: span 5;
+    grid-row: span 1;
   }
 }
 
