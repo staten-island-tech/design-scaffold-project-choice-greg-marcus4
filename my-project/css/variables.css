@@ -461,6 +461,11 @@ body {
     grid-row: span 1;
   }
 }
+@media (max-width: 1200px) {
+  .Attractionimage {
+    width: 100%;
+  }
+}
 
 @media (min-width: 1690px) {
   .footerimage:hover {
