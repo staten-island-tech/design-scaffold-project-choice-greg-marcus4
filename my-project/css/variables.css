@@ -49,6 +49,11 @@ body {
   max-height: 40rem;
 }
 
+.text2 {
+  font-size: 13px;
+  width: 40rem;
+}
+
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
@@ -88,11 +93,6 @@ body {
   --tw-translate-x: -30rem;
 }
 
-.text2 {
-  width: 34rem;
-  font-size: 0.7rem;
-}
-
 .regionname1:hover + .hide1 {
   display: block;
 }
@@ -106,11 +106,6 @@ body {
   display: none;
   --tw-translate-y: -40rem;
   --tw-translate-x: -30rem;
-}
-
-.text3 {
-  width: 40rem;
-  font-size: 0.8rem;
 }
 
 .regionname2:hover + .hide2 {
@@ -139,23 +134,15 @@ body {
   font-size: 12px;
 }
 
-.text4 {
-  width: 40rem;
-}
-
 .regionname5 {
   font-size: 14px;
   --tw-translate-x: 28rem;
 }
 
 .hide5 {
-  --tw-translate-y: -40rem;
+  --tw-translate-y: -43rem;
   --tw-translate-x: -30rem;
   display: none;
-}
-
-.text5 {
-  width: 40rem;
 }
 
 .regionname5:hover + .hide5 {
@@ -171,11 +158,6 @@ body {
   --tw-translate-y: -43rem;
   --tw-translate-x: -30rem;
   display: none;
-}
-
-.text6 {
-  width: 40rem;
-  font-size: 0.9rem;
 }
 
 .regionname6:hover + .hide6 {
@@ -391,7 +373,8 @@ body {
 .regionimg {
   max-height: 30rem;
   max-width: 40rem;
-  border-radius: 20%;
+  height: 20rem;
+  width: 40rem;
   object-fit: cover;
 }
 
