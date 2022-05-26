@@ -87,6 +87,11 @@ body {
   width: 40rem;
 }
 
+.text2 {
+  width: 40rem;
+  font-size: 15px;
+}
+
 .regionname:hover + .hide {
   display: block;
 }
@@ -98,7 +103,7 @@ body {
 
 .hide1 {
   display: none;
-  --tw-translate-y: -120%;
+  --tw-translate-y: -100%;
   --tw-translate-x: -80%;
 }
 
@@ -163,7 +168,7 @@ body {
 }
 
 .hide6 {
-  transform: translate(-80%, -120%);
+  transform: translate(-80%, -150%);
   display: none;
 }
 
@@ -177,7 +182,7 @@ body {
 }
 
 .hide7 {
-  transform: translate(-80%, -120%);
+  transform: translate(-80%, -140%);
   display: none;
 }
 
@@ -219,7 +224,7 @@ body {
 }
 
 .hide10 {
-  transform: translate(-80%, -120%);
+  transform: translate(-80%, -180%);
   display: none;
 }
 
@@ -232,7 +237,7 @@ body {
 }
 
 .hide11 {
-  transform: translate(-80%, -140%);
+  transform: translate(-80%, -150%);
   display: none;
 }
 
@@ -245,7 +250,7 @@ body {
 }
 
 .hide12 {
-  transform: translate(-130%, -80%);
+  transform: translate(-80%, -160%);
   display: none;
 }
 
@@ -258,7 +263,7 @@ body {
 }
 
 .hide13 {
-  transform: translate(-80%, -130%);
+  transform: translate(-80%, -210%);
   display: none;
 }
 
@@ -271,7 +276,7 @@ body {
 }
 
 .hide14 {
-  transform: translate(-30rem, -57rem);
+  transform: translate(-80%, -210%);
   display: none;
 }
 
@@ -284,7 +289,7 @@ body {
 }
 
 .hide15 {
-  transform: translate(-30rem, -59rem);
+  transform: translate(-80%, -210%);
   display: none;
 }
 
@@ -298,7 +303,7 @@ body {
 }
 
 .hide16 {
-  transform: translate(-30rem, -63rem);
+  transform: translate(-80%, -180%);
   display: none;
 }
 
@@ -312,7 +317,7 @@ body {
 }
 
 .hide17 {
-  transform: translate(-30rem, -65rem);
+  transform: translate(-80%, -150%);
   display: none;
 }
 
@@ -326,7 +331,7 @@ body {
 }
 
 .hide18 {
-  transform: translate(-30rem, -67rem);
+  transform: translate(-80%, -210%);
   display: none;
 }
 
@@ -339,8 +344,7 @@ body {
 }
 
 .hide19 {
-  --tw-translate-y: -70rem;
-  --tw-translate-x: -30rem;
+  transform: translate(-80%, -270%);
   display: none;
 }
 
@@ -353,7 +357,7 @@ body {
 }
 
 .hide20 {
-  transform: translate(-40rem, -70rem);
+  transform: translate(-80%, -280%);
   display: none;
 }
 
@@ -367,7 +371,7 @@ body {
 }
 
 .hide21 {
-  transform: translate(-30rem, -70rem);
+  transform: translate(-80%, -290%);
   display: none;
 }
 
