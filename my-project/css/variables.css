@@ -523,3 +523,43 @@ body {
     display: none;
   }
 }
+@media (max-width: 1000px) {
+  .Navigation {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+@media (max-width: 700px) {
+  .Navigation {
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .headerheaderthing {
+    background-size: contain;
+  }
+}
+
+@media (max-width: 725px) {
+  .headerheaderthing {
+    background-size: 0%;
+  }
+}
+
+@media (max-width: 725px) {
+  .header {
+    color: black;
+    font-size: 7rem;
+    padding-top: 25%;
+    margin: auto;
+    padding: auto;
+  }
+}
+@media (max-width: 1000px) {
+  .transportationtext {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+}
