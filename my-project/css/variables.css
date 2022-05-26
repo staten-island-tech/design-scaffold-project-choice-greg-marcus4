@@ -45,8 +45,17 @@ body {
  background-image: url(https://i.ytimg.com/vi/BZLZyX3JdEM/maxresdefault.jpg);
 }
 
+.spannernamesus {
+  font-size: 1px;
+}
+
 .map {
  max-height: 40rem;
+}
+
+.map1 {
+  max-height: 40rem;
+  display: none;
 }
 
 .text2 {
@@ -487,8 +496,31 @@ body {
  }
 }
 
-@media (min-width: 600px) {
+@media (max-width: 1000px) {
+  .map {
+    display: none;
+  }
+  .map1 {
+    display:block;
+    transform: translate(15rem);
+  }
+}
+
+@media (max-width: 1000px) {
 .hide23906 {
- display: block;
+  display: block;
+  transform: translate(-9rem);
+  padding-bottom: 10rem;
+  border:none
+}
+
+.attractionheader {
+  padding-top: 880rem;
 }
 }
+
+@media (max-width: 1000px) {
+  .regionname256 {
+   display: none;
+  }
+  }
